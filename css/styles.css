@@ -131,27 +131,17 @@ body::before{
 .date-circle:hover{transform:scale(1.1);background:rgba(255,255,255,0.3);}
 
 .date-circle.passed {
-  background: rgba(255, 255, 255, 0.1);
-  color: #aaa;
-  border-color: rgba(255, 255, 255, 0.2);
-  animation: none; /* sin pulso */
-  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  color: #ff4d4d;
+  border-color: #ff4d4d;
+  animation: none;
 }
 
-.date-circle.passed::before,
-.date-circle.passed::after {
-  content: "";
+.date-circle.passed::before {
+  content: "✖";
+  font-size: 2rem;
+  color: #ff4d4d;
   position: absolute;
-  width: 70%;
-  height: 2px;
-  background: #ff4d4d; /* rojo para destacar */
-  top: 50%;
-  left: 15%;
-  transform: rotate(45deg);
-}
-
-.date-circle.passed::after {
-  transform: rotate(-45deg);
 }
 
 @keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.05);}}
