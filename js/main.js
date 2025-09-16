@@ -1,7 +1,7 @@
 // ==============================
 // Config
 // ==============================
-const STRIPE_LINK = "https://buy.stripe.com/00w00i2Fp5jjfnt2mS8bS0h"; // <-- tu Payment Link
+const STRIPE_LINK = "https://buy.stripe.com/00w7sKfsb4ffa39gdI8bS0j"; // <-- tu Payment Link
 
 // ==============================
 // Utilidades
